@@ -63,5 +63,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'dotenv-rails' 
 gem 'line-bot-api'
 group :development, :test do
-  gem 'sqlite3' #do ~ end内部に追加。他のgemは残してください。
+  gem 'sqlite3', '~> 1.3.6'
 end
